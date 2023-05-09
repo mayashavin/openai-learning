@@ -14,6 +14,4 @@ table with column headers and title: {data_json}
 response = get_completion(prompt)
 # print(response)
 data = HTML(response)
-
-with open("data.html", "w") as file:
-    file.write(data)
+display(data)

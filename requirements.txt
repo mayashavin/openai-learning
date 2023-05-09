@@ -1,0 +1,4 @@
+panel
+openapi
+os
+IPython
